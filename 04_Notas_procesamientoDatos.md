@@ -69,3 +69,26 @@
 >print(df_pop_es.head())
 
 >df_pop_es.drop(['country'],axis=1['population'].plot(kind='bar'))
+
+
+
+# PROCESAMIENTO DE DDATOS
+
+- aprendizaje supervisado
+proporciona una ruta directa para convertir los datos en información real y procesada, permite comprender resultados no deseados
+
+- aprendizaje no supervisado
+cuando tenemos un closter y debemos descubrir cuál es la clase 
+
+Este es un reconocimiento  de patrones para ver qué comportamientos tienen
+
+- Los modelos deben ser reconstruidos periódicamente con el fin de mantener sus predicciones sin que se conviertean en obsoletas. **FORCASTING**
+
+## Diferencia entre un problema de clasificación y Regresión
+
+| Clasificación                                                                                                                                                       | Regresión                                                                                                                                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| El algoritmo intenta etiquetas cada <br> ejempo eligiendo entre dos o más clases <br>diferentes                                                                     | Donde se predice un valor real basado en<br> entradas pasadas                                                                                                                                                               |
+| Usan las características aprendidas de los <br> datos de capacitación sobre datos nuevos,<br> no vistos previamnete, para predecir sus<br> etiquetas de clase.      | Estos algoritmos se usan para predeicir <br> valores de salida basados en algunoas <br> caracterísitcas de entrada obtenidas de los <br> datos.                                                                             |
+| Elegir entre dos clasese se denomia <br> clasificación binaria. Elegir entre más de <br> dos clases se denomina clasificación <br> multiclase.                      | Los valores de salida en este caso son <br> continuos                                                                                                                                                                       |
+| Algunso ejemplos de este algoritmo son: <br> predecir si un cliente va a cancelar o no su <br> tarjeta de crédito, predecir si un alumno <br> pasará o no una clase | Algunos ejemplos de este algoritmo son: <br>predecir los precios de la vivienda, predecir <br> las cantidades de compra, predecir la <br> candtidad de ingresos se genera a partir de <br>  una nueva campaña de marketing. |
