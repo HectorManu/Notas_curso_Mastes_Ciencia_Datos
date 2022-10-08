@@ -207,4 +207,20 @@ Los valores para cada atributo  ahora tiene una valor medio de 0 y una devisaió
   - Box-Cox asume todos los atributos positovos.
   - Aplica la transformación a los atributos que parecen tener sesgo.
   - Corrige la no linealidad en relación (mejorar correlación entre las variables).
-  - 
+  
+> from sklearn-preprocessing import PowerTransformer<br>
+> #extract featurew with skew<br>
+> features = data [['pedi','age']]
+> #instatiate
+> pt = PowerTransformer (methos='box-cox,standardize=True)<br>
+> #Fit the data to the powertransformer<br>
+> skl_boxcox = pt.fit(features)<br>
+> #lets get the lambdas that were found<br>
+> #
+
+# Yeo-johnson 
+- Igual que Box-Cox pero soporta valore en bruto que son iguales a cero y negativos.
+
+si tenemos solo valores positivos usamos box cox<br>
+si tenemos positivos y negativos usamoe yeo johson<br>
+si tenemos negativos solamente usamoe yeo johson<br>
