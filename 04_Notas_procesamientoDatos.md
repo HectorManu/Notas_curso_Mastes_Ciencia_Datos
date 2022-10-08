@@ -137,7 +137,7 @@ Hay una cantidad de métoso de transformación muy grande. todo depende de las n
 > 
 > scaler= MimMaxScaler(feature_range=(0,1))
 > 
-> rescaledx ? scaler.fit_transform(X)
+> rescaledx = scaler.fit_transform(X)
 >  
 > #*summarize transformed data*
 > 
@@ -151,3 +151,60 @@ Hay una cantidad de métoso de transformación muy grande. todo depende de las n
 
 
 
+
+Es más adecuada para técnicas que asumen una distribución gaussiana en las variables de entrada y funcionan mejor con datos reescalados, como LiR, LoR y LDA 
+Puede estandarizar datos utilizando la clase anterior
+Los valores para cada atributo  ahora tiene una valor medio de 0 y una devisaión estándar de 1
+
+
+> From sklear-preprocessing import Min MaxScaler
+> 
+> scaler= StandarScaler().fit(x
+> 
+> rescaledx = scaler.transform(X)
+>  
+> #*summarize transformed data*
+> 
+> np.set_printoptions(precision=3
+> 
+> print(names)
+> 
+> pring(rescaledx[0:5,:])
+> 
+> print(type(rescaledX))
+
+
+# 4. normalización 
+- Los valores de lso datos pueden escalar en el rango de [0,1] es decir, con el valor mínimo 0 y máximo 1. 
+- Este método de preproesamiento puede ser útil para conjuntos de taod dispersos (muchos ceros) con atributos de escalas variables.
+  - Cuando se utilizan algoritmos queponderan valores de entrada ocmo NN y algoritmos que usa medidad de distancia Ik-NN.
+- Puede normalizar datos en Python con la clase <u>*Normalizer*</u>.
+
+> from slearn.preprocessing import Normalizer <br>
+> scaler = Normalizer()fit(X)<br>
+> normalizedX = scaler.transform(X)<br>
+> #summarize transformed dta<br>
+> np.set_printoptions(precision=2)<br>
+> print(names)
+> <br>
+> print(normalizedX[0:5,:])
+
+# 5. Binarización
+- Puede crear nuevos atributos binarios en Python usando la clase Binarizer.
+- puede ver que todos los valore siguales o menores que 0 están marcados con 0 y todos los que están pro encima de 0 están marcados con 1.
+
+> From sklearn-preprocessing import Binarizer<br>
+> binarizer = Binarizer(threshold=(0.0)).fit(x)<br>
+> binaryX = binarizer.transform(X)<br>
+> #summarize transfformed data<br>
+> np.set_printoptions(presicion=3)<br>
+> print(names)
+> print(binaryX[0:5],5)
+
+
+# 6. Box-Cox 
+- los atributos representan un sesgo o inclinación (Gaussiana desplazada).
+  - Box-Cox asume todos los atributos positovos.
+  - Aplica la transformación a los atributos que parecen tener sesgo.
+  - Corrige la no linealidad en relación (mejorar correlación entre las variables).
+  - 
