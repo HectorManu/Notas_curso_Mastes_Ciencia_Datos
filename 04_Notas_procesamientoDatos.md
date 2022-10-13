@@ -224,3 +224,7 @@ Los valores para cada atributo  ahora tiene una valor medio de 0 y una devisaió
 si tenemos solo valores positivos usamos box cox<br>
 si tenemos positivos y negativos usamoe yeo johson<br>
 si tenemos negativos solamente usamoe yeo johson<br>
+
+# Métodos de remuestreo
+
+- Objetivo: Evaluar los algoritmos
