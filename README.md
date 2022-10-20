@@ -5,6 +5,8 @@
 ## Notas de curso de Máster de especialista en Ciencia de Datos con Python *udemy* junto con evilhector 
 En este repositorio encontrarás las notas del curso del título del repositorio, así como sugerencias para abordar los distintos ejericicios que se abordan durante el curso. 
 
+a
+
 ## Nota 👇
 
 
