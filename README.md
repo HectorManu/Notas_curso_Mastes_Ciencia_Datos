@@ -2,8 +2,10 @@
 ![analytics image (flat)](https://raw.githubusercontent.com/vitr/google-analytics-beacon/master/static/badge-flat.gif)
 ![analytics](https://www.google-analytics.com/collect?v=1&cid=555&t=pageview&ec=repo&ea=open&dp=/Plantilla-de-repositorio/readme&dt=&tid=UA-4677001-16)
 
-## Notas de curso de Máster de especialista en Ciencia de Datos con Python *udemy*
+## Notas de curso de Máster de especialista en Ciencia de Datos con Python *udemy* junto con evilhector 
 En este repositorio encontrarás las notas del curso del título del repositorio, así como sugerencias para abordar los distintos ejericicios que se abordan durante el curso. 
+
+a
 
 ## Nota 👇
 
